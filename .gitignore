@@ -1,0 +1,69 @@
+# Compilados Java
+*.class
+
+# Arquivos de log
+*.log
+
+# Diretórios de build
+/bin/
+/build/
+out/
+
+# Dependências baixadas localmente
+/.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+# Diretórios do Maven
+/target/
+!.mvn/wrapper/maven-wrapper.properties
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+
+# Configurações específicas de IDEs
+# IntelliJ IDEA
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Arquivos gerados pelo sistema operacional
+Thumbs.db
+.DS_Store
+*.bak
+*.old
+
+# Relatórios do Cucumber
+/cucumber-html-reports/
+/cucumber-reports/
+/target/cucumber.json
+
+# Outras ferramentas de build
+.gradle/
+/.gradle-cache/
+/.gradle-wrapper/
+
+# Dependências do sistema
+/.classpath/
+/.project/
+/.settings/
+
+# Outros
+!README.md
